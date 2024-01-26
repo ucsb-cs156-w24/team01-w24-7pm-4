@@ -33,15 +33,15 @@ public class JokeQueryService {
 
     public static final String ENDPOINT = "https://v2.jokeapi.dev/joke/{category}?amount={numJokes}";
 
-    public String getJSON(String category, int numJokes) throws HttpClientErrorException {
-        log.info("category={}, numJokes={}", category, Integer.toString(numJokes));
+    public String getJSON(String category, String numJokes) throws HttpClientErrorException {
+        log.info("category={}, numJokes={}", category, numJokes);
         HttpHeaders headers = new HttpHeaders();
         headers.setAccept(List.of(MediaType.APPLICATION_JSON));
         headers.setContentType(MediaType.APPLICATION_JSON);
 
         HttpEntity<String> entity = new HttpEntity<>(headers);
 
-        Map<String, String> uriVariables = Map.of("category", category, "numJokes", Integer.toString(numJokes));
+        Map<String, String> uriVariables = Map.of("category", category, "numJokes", numJokes);
 
         ResponseEntity<String> re = restTemplate.exchange(ENDPOINT, HttpMethod.GET, entity, String.class,
                 uriVariables);
