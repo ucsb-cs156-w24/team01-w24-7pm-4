@@ -25,9 +25,9 @@ public class JokeQueryServiceTests {
     public void test_getJSON() {
 
         String category = "ironic";
-        int numJokes = 69;
+        String numJokes = "69";
         String expectedURL = JokeQueryService.ENDPOINT.replace("{category}", category)
-                .replace("{numJokes}", Integer.toString(numJokes));
+                .replace("{numJokes}", numJokes);
 
         String fakeJsonResult = "{ \"fake\" : \"result\" }";
 
