@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-w24/team01-w24-7pm-4
 owner: ucsb-cs156-w24
 repo_name: team01-w24-7pm-4
-pull_requests: [{"author":{"id":"MDQ6VXNlcjQwNTQ2NDI3","is_bot":false,"login":"viditagrawal","name":""},"headRefName":"viditagrawal-holidayservice-controller","number":21,"title":"[holidayservice] added controller + tests","url":"https://github.com/ucsb-cs156-w24/team01-w24-7pm-4/pull/21"}]
+pull_requests: [{"author":{"id":"U_kgDOBdHhOA","is_bot":false,"login":"dhwang154","name":""},"headRefName":"Daniel-HomeController","number":29,"title":"added home controller","url":"https://github.com/ucsb-cs156-w24/team01-w24-7pm-4/pull/29"},{"author":{"id":"MDQ6VXNlcjQwNTQ2NDI3","is_bot":false,"login":"viditagrawal","name":""},"headRefName":"viditagrawal-holidayservice-controller","number":21,"title":"[holidayservice] added controller + tests","url":"https://github.com/ucsb-cs156-w24/team01-w24-7pm-4/pull/21"}]
