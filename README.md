@@ -4,13 +4,14 @@ Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 
 
 ```
-|   Name    | GitHub Id |  Service                    | Controller                |
-|-----------|-----------|-----------------------------|---------------------------|
-|           |           | `LocationQueryService`      | `LocationController`      |
-|           |           | `PublicHolidayQueryService` | `PublicHolidayController` |
-|           |           | `TidesQueryService`         | `TidesController`         |
-|           |           | `UniversityQueryService`    | `UniversityController`    |
-|           |           | `ZipCodeQueryService`       | `ZipCodeController`       |
+|    Name     | GitHub Id  |  Service                    | Controller                |
+|-------------|------------|-----------------------------|---------------------------|
+|Wesley Truong|wesleytruong| `LocationQueryService`      | `LocationController`      |
+|Vidit Agrawal|viditagrawal| `PublicHolidayQueryService` | `PublicHolidayController` |
+|   Allen Hu  |  AllenHsm  | `TidesQueryService`         | `TidesController`         |
+|Daniel Hwang | dhwang154  | `UniversityQueryService`    | `UniversityController`    |
+|Arayman Singh| notarayman | `ZipCodeQueryService`       | `ZipCodeController`       |
+| Wesley hung | wesleyhung | `JokeQueryService`          | `JokeController`          |
 ```
 
 
