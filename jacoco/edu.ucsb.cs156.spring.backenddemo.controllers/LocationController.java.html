@@ -32,7 +32,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
     @Operation(summary = &quot;Get info on a locations that match a given location name&quot;, description = &quot;JSON return format documented here: https://nominatim.openstreetmap.org/search/{location}?format=json&quot;)
     @GetMapping(&quot;/get&quot;)
     public ResponseEntity&lt;String&gt; getLocation(
-        @Parameter(name=&quot;location&quot;, description=&quot;location to get info about&quot;, example=&quot;100&quot;) @RequestParam String location
+        @Parameter(name=&quot;location&quot;, description=&quot;location to get info about&quot;, example=&quot;Isla Vista&quot;) @RequestParam String location
     ) throws JsonProcessingException {
 <span class="fc" id="L37">        log.info(&quot;getLocation: location={}&quot;, location);</span>
 <span class="fc" id="L38">        String result = locationQueryService.getJSON(location);</span>
