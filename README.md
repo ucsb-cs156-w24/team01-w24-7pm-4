@@ -10,7 +10,7 @@ Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 |Vidit Agrawal|viditagrawal| `PublicHolidayQueryService` | `PublicHolidayController` |
 |   Allen Hu  |  AllenHsm  | `TidesQueryService`         | `TidesController`         |
 |Daniel Hwang | dhwang154  | `UniversityQueryService`    | `UniversityController`    |
-|Arayman Singh| notarayman | `ZipCodeQueryService`       | `ZipCodeController`       |
+|Aryaman Singh| notaryaman | `ZipCodeQueryService`       | `ZipCodeController`       |
 | Wesley hung | wesleyhung | `JokeQueryService`          | `JokeController`          |
 ```
 
